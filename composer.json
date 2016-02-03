@@ -1,0 +1,17 @@
+{
+    "name": "arek/slim-controller",
+    "description": "Controller for Slim Framework 3",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0.0",
+        "slim/slim": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arek\\Slim\\Controller\\": "./src"
+        }
+    }
+}
